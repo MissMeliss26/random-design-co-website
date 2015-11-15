@@ -129,31 +129,31 @@ textarea {
     margin-left: 0;
 
   }
-  .opening-section img{
+  .main-content img{
     display:block;
     height:480px;
     width:100%;
 
 
 }
-.opening-section figure{
+.main-content figure{
   position:relative;
   margin: 0;
 }
-  .opening-section figcaption{
+  .main-content figcaption{
   position:absolute;
   left:0;
   right:0;
   margin:0 auto;
   width:30%;
   }
-  .opening-section h2{
+  .main-content h2{
     color:#fff;
     padding-top: 130px;
     font-size: 3em;
     text-align: center;
   }
-  .opening-section h3{
+  .main-content h3{
     text-align: center;
     color:#fff;
     padding:10px;
@@ -166,6 +166,12 @@ textarea {
     margin:0 auto;
     overflow-x: auto;
   }
+.page-information,.projects{
+  padding:15px;
+  border-bottom: 1px solid #ccc;
+  margin-left: 20px;
+  margin-right: 20px;
+}
 
 
 
