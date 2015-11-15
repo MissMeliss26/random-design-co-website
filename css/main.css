@@ -139,7 +139,7 @@ textarea {
 .main-content figure{
   position:relative;
   margin: 0;
-  z-index:-10;
+  z-index:0;
 }
 .main-content figcaption{
     position:absolute;
@@ -164,56 +164,69 @@ textarea {
   font-weight: lighter;
   font-size: 1.25em;
   text-align: center;
+  z-index: +10;
 
 }
 .page-information,.projects{
   padding:25px;
-  border-bottom: 1px solid #ccc;
   margin:10px 3px;
 }
 .page-information h4,.projects h4{
   font-size: 18px;
   text-transform: uppercase;
 }
-
-.left-photos{
-float:left;
-overflow: auto;
-clear:left;
-border: 1px solid black;
-width:50%;
+.page-information{
+  border-bottom: 1px solid #ccc;
 }
-.right-photos{
-  float:right;
+
+
+.projects img{
+  opacity: .50;
+  width:50%;
+}
+
+.projects img:hover{
+  opacity:1.0;
+}
+.left{
+  float:left;
   overflow:auto;
   clear:right;
   border: 1px solid black;
   width:50%;
 }
-
-.projects img{
-  opacity: .5;
-  width:30%;
+.right{
+  float:right;
+  overflow:auto;
+  clear:left;
+  border: 1px solid black;
+  width:50%;
 }
-.right-photos figure{
-
+.left figure{
+  position:relative;
+  z-index: -10;
 }
-.right-photos figcaption{
-
-  }
-   .left-photos figure{
+.left figcaption{
+  position:absolute;
 
 
-  }
-  .left-photos figcaption{
+  transform: translate(-50%, -50%);
+  text-align: center;
+  text-transform: uppercase;
+  z-index:10;
+}
+.right figure{
+  position:relative;
+  z-index:0;
+}
+.right figcaption{
+    position:absolute;
 
-    }
-
-
-
-
-
-
+    transform: translate(-50%, -50%);
+    text-align: center;
+    text-transform: uppercase;
+    z-index:10;
+}
 
 
 
@@ -221,6 +234,7 @@ width:50%;
   text-align: center;
   padding:10px;
   clear:both;
+  border-top: 1px solid #ccc;
 }
 
 
