@@ -147,13 +147,14 @@ textarea {
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
+    text-transform: uppercase;
   }
   .main-content h2{
     color:#fff;
     font-size: 3em;
     text-align: center;
   }
-  
+
   .btn {
   display: inline-block;
   border: 0.125em solid white;
@@ -168,11 +169,27 @@ textarea {
 .page-information,.projects{
   padding:25px;
   border-bottom: 1px solid #ccc;
-  margin-left: 20px;
-  margin-right: 20px;
+  margin:10px 3px;
 }
 .page-information h4,.projects h4{
   font-size: 18px;
+  text-transform: uppercase;
+}
+.projects img{
+  opacity: .5;
+  width:40%;
+}
+.projects figure{
+  position:relative;
+}
+.projects figcaption{
+  position:absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  text-transform: uppercase;
+
 }
 
 
