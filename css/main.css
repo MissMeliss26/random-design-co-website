@@ -181,7 +181,7 @@ textarea {
 
 .projects img{
   opacity: .50;
-  max-width:95%;
+  max-width:100%;
 }
 
 .projects img:hover{
@@ -192,15 +192,16 @@ textarea {
   float:left;
   overflow:hidden;
   clear:left;
-  border: 1px solid black;
-  width:40%;
+  max-width:46%;
+  margin-left: 0;
 }
 .right{
   float:right;
   overflow:hidden;
   clear:right;
-  border: 1px solid black;
-  width:40%;
+  max-width:46%;
+  margin-right:-10px;
+  margin-left: 0px;
 }
 .projects figure{
   position:relative;
