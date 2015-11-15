@@ -178,24 +178,34 @@ textarea {
 .page-information{
   border-bottom: 1px solid #ccc;
 }
+
 .projects img{
-  float:left;
   opacity: .50;
-  max-width:50%;
+  max-width:95%;
 }
 
 .projects img:hover{
   opacity:1.0;
+
 }
+.left{
+  float:left;
+  overflow:hidden;
+  clear:left;
+  border: 1px solid black;
+  width:40%;
+}
+.right{
+  float:right;
+  overflow:hidden;
+  clear:right;
+  border: 1px solid black;
+  width:40%;
 }
 .projects figure{
   position:relative;
   z-index:0;
 
-}
-.projects figure:hover{
-  opacity:1.0;
-  color:white;
 }
 .projects figcaption{
     position:absolute;
@@ -203,26 +213,24 @@ textarea {
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
-    text-transform: uppercase;
     z-index:10;
 
 }
 .projects p{
-  font-size: 2em;
+  text-transform: uppercase;
   font-weight: bold;
+  font-size: 1.6em;
 }
-
-
-
-
+.projects figure:hover{
+ opacity:1.0;
+ color:white;
+}
 .page-footer{
   text-align: center;
   padding:10px;
   clear:both;
   border-top: 1px solid #ccc;
 }
-
-
 
 
 
