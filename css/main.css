@@ -182,7 +182,7 @@ textarea {
 
 .projects img{
   opacity: .50;
-  width:50%;
+  width:100%;
 }
 
 .projects img:hover{
@@ -202,30 +202,21 @@ textarea {
   border: 1px solid black;
   width:50%;
 }
-.left figure{
-  position:relative;
-  z-index: -10;
-}
-.left figcaption{
-  position:absolute;
-
-
-  transform: translate(-50%, -50%);
-  text-align: center;
-  text-transform: uppercase;
-  z-index:10;
-}
-.right figure{
+.projects figure{
   position:relative;
   z-index:0;
 }
-.right figcaption{
+.projects figcaption{
     position:absolute;
-
+    top: 50%;
+    left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
     text-transform: uppercase;
     z-index:10;
+
+
+
 }
 
 
