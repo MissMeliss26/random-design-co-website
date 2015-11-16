@@ -194,6 +194,7 @@ textarea {
   clear:left;
   max-width:46%;
   margin-left: 0;
+  margin-top: 0px;
 }
 .right{
   float:right;
@@ -201,7 +202,8 @@ textarea {
   clear:right;
   max-width:46%;
   margin-right:-10px;
-  margin-left: 0px;
+  margin-left: -50px;
+  margin-top: 0px;
 }
 .projects figure{
   position:relative;
