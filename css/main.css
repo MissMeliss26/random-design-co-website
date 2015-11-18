@@ -180,18 +180,22 @@ textarea {
 }
 .project-thumb{
   position:relative;
-  width:50%;
+  width:46%;
   float:left;
-  background-color: hsla(0,100%,100%, 0.5);
+  background-color: hsla(0,100%,100%, 0.55);
   border: 1px solid white;
+  overflow: none;
+
 }
 .project-thumb:hover{
-  background-color: hsla(0, 0%,0%,0.5);
+  background-color: hsla(0, 0%,0%,0.4);
+  color:#fff;
 
 }
 .project-thumb img{
   position:relative;
   z-index:-10;
+  max-width: 100%;
 }
 .project-thumb h4{
   position:absolute;
@@ -204,7 +208,7 @@ textarea {
   font-size: 1.5em;
   text-transform: uppercase;
 }
-.project-thumb:hover h3{
+.project-thumb:hover h4{
   color:#fff;
 }
 .page-footer{
