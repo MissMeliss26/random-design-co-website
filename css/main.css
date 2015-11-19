@@ -184,7 +184,6 @@ textarea {
   float:left;
   background-color: hsla(0,100%,100%, 0.55);
   border: 1px solid white;
-  overflow: none;
 
 }
 .project-thumb:hover{
